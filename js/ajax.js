@@ -32,7 +32,8 @@
     console.log("hola");
   });
 
-  xhr.open("GET", "https://jsonplaceholder.typicode.com/users");
+  //xhr.open("GET", "https://jsonplaceholder.typicode.com/users");
+  xhr.open("GET", "assets/users.json");
 
   xhr.send();
 })();
